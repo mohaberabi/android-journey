@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/galleryFragment">
+
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.mohaberabi.fliker.features.gallery.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/goToWebView"
+            app:destination="@id/photoDetilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoDetilFragment"
+        android:name="com.mohaberabi.fliker.features.detail.PhotoDetilFragment"
+        android:label="fragment_photo_detil"
+        tools:layout="@layout/fragment_photo_detil">
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+</navigation>

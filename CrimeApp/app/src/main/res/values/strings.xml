@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CrimeApp</string>
+    <string name="crime_title_hint">Enter a title for the crime.</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_crime">Add Crime</string>
+    <string name="crime_report">%1$s!
+The crime was discovered on %2$s. %3$s, and %4$s
+</string>
+    <string name="enter_title_for_suspect_or_pickup_one_from_contacts">Enter title for suspect or pickup one from contacts</string>
+</resources>
